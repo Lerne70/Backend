@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Luis\\source\\repos\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Migrations\\20240903053957_AlcoholInBeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Migrations\\20240903053957_AlcoholInBeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|c:\\users\\luis\\source\\repos\\backend\\backend\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|c:\\users\\luis\\source\\repos\\backend\\backend\\models\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|solutionrelative:backend\\models\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|c:\\users\\luis\\source\\repos\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|c:\\users\\luis\\source\\repos\\backend\\backend\\dtos\\beerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\beerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|c:\\users\\luis\\source\\repos\\backend\\backend\\dtos\\beerinsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\beerinsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|c:\\users\\luis\\source\\repos\\backend\\backend\\dtos\\beerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\beerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240903053957_AlcoholInBeer.cs",
-              "DocumentMoniker": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Migrations\\20240903053957_AlcoholInBeer.cs",
-              "RelativeDocumentMoniker": "Backend\\Migrations\\20240903053957_AlcoholInBeer.cs",
-              "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Migrations\\20240903053957_AlcoholInBeer.cs",
-              "RelativeToolTip": "Backend\\Migrations\\20240903053957_AlcoholInBeer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "BeerController.cs",
+              "DocumentMoniker": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Controllers\\BeerController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\BeerController.cs",
+              "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Controllers\\BeerController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\BeerController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvysAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:39:57.114Z",
+              "WhenOpened": "2024-09-06T01:15:03.439Z",
               "EditorCaption": ""
             },
             {
@@ -45,22 +53,48 @@
               "RelativeDocumentMoniker": "Backend\\Models\\Beer.cs",
               "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Models\\Beer.cs",
               "RelativeToolTip": "Backend\\Models\\Beer.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:37:06.126Z",
+              "WhenOpened": "2024-09-06T01:11:03.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Program.cs",
-              "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABXAAAA",
+              "Title": "BeerUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\DTOs\\BeerUpdateDto.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\BeerUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\DTOs\\BeerUpdateDto.cs",
+              "RelativeToolTip": "Backend\\DTOs\\BeerUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:23:11.921Z",
+              "WhenOpened": "2024-09-05T01:11:45.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BeerInsertDto.cs",
+              "DocumentMoniker": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\DTOs\\BeerInsertDto.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\BeerInsertDto.cs",
+              "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\DTOs\\BeerInsertDto.cs",
+              "RelativeToolTip": "Backend\\DTOs\\BeerInsertDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T01:11:04.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BeerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\DTOs\\BeerDto.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\BeerDto.cs",
+              "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\DTOs\\BeerDto.cs",
+              "RelativeToolTip": "Backend\\DTOs\\BeerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T01:09:22.761Z",
               "EditorCaption": ""
             }
           ]
