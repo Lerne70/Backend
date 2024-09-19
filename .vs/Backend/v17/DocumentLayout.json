@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|c:\\users\\luis\\source\\repos\\backend\\backend\\validators\\beerupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|solutionrelative:backend\\validators\\beerupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|c:\\users\\luis\\source\\repos\\backend\\backend\\validators\\beerinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4D75CCD-FFC2-49AC-BA5E-F2B121F43F12}|Backend\\Backend.csproj|solutionrelative:backend\\validators\\beerinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -40,22 +36,9 @@
               "RelativeDocumentMoniker": "Backend\\Services\\IBeerServices.cs",
               "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Services\\IBeerServices.cs",
               "RelativeToolTip": "Backend\\Services\\IBeerServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T06:00:38.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BeerUpdateValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Validators\\BeerUpdateValidator.cs",
-              "RelativeDocumentMoniker": "Backend\\Validators\\BeerUpdateValidator.cs",
-              "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Validators\\BeerUpdateValidator.cs",
-              "RelativeToolTip": "Backend\\Validators\\BeerUpdateValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T06:03:35.699Z",
               "EditorCaption": ""
             },
             {
@@ -66,7 +49,7 @@
               "RelativeDocumentMoniker": "Backend\\Controllers\\BeerController.cs",
               "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Controllers\\BeerController.cs",
               "RelativeToolTip": "Backend\\Controllers\\BeerController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAIwF8AAAA7AAAA",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAcwI4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T00:53:10.371Z",
               "EditorCaption": ""
@@ -81,12 +64,11 @@
               "RelativeToolTip": "Backend\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:51:26.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T00:51:26.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "BeerInsertValidator.cs",
               "DocumentMoniker": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Validators\\BeerInsertValidator.cs",
               "RelativeDocumentMoniker": "Backend\\Validators\\BeerInsertValidator.cs",
