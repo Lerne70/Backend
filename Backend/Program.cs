@@ -11,12 +11,11 @@ var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddSingleton<IPeopleService, People2Service>();
 builder.Services.AddKeyedSingleton<IPeopleService, PeopleService>("peopleService");
 builder.Services.AddKeyedSingleton<IPeopleService, PeopleService>("people2Service");
-
 builder.Services.AddKeyedSingleton<IRandomService, RandomService>("randomSingleton");
 builder.Services.AddKeyedScoped<IRandomService, RandomService>("randomScoped");
 builder.Services.AddKeyedTransient<IRandomService, RandomService>("randomTransient");
-
 builder.Services.AddScoped<IPostsService, PostsService>();
+builder.Services.AddScoped<IBeerServices, BeerService>();
 
 //HttpClient servicio jsonplaceholder
 builder.Services.AddHttpClient<IPostsService, PostsService>(c =>
