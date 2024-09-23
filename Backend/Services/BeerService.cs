@@ -1,6 +1,7 @@
 ﻿using Backend.DTOs;
 using Backend.Migrations;
 using Backend.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Services
@@ -64,18 +65,51 @@ namespace Backend.Services
 
             return beerDto;
         }
-        public Task<BeerDto> Update(int id, BeerUpdateDto beerUpdateDto)
+        public async Task<BeerDto> Update(int id, BeerUpdateDto beerUpdateDto)
         {
-            throw new NotImplementedException();
+            var beer = await _context.Beers.FindAsync(id);
+
+            if (beer != null) {
+                beer.Name = beerUpdateDto.Name;
+                beer.Alcohol = beerUpdateDto.Alcohol;
+                beer.BrandID = beerUpdateDto.BrandID;
+                await _context.SaveChangesAsync();
+
+                var beerDto = new BeerDto
+                {
+                    Id = beer.BeerID,
+                    Name = beer.Name,
+                    Alcohol = beer.Alcohol,
+                    BrandID = beer.BrandID
+                };
+
+                return beerDto;
+            }
+
+            return null;
         }
         
-       
-
-        
-
-        public Task<BeerDto> Delete(int id)
+        public async Task<BeerDto> Delete(int id)
         {
-            throw new NotImplementedException();
+            var beer = await _context.Beers.FindAsync(id);
+
+            if (beer != null)
+            {
+                var beerDto = new BeerDto
+                {
+                    Id = beer.BeerID,
+                    Name = beer.Name,
+                    Alcohol = beer.Alcohol,
+                    BrandID = beer.BrandID
+                };
+
+                _context.Remove(beer);
+                await _context.SaveChangesAsync();
+
+                return beerDto;
+            }
+
+            return null;
         }
 
     }

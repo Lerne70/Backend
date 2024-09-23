@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Backend\\Services\\BeerService.cs",
               "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Services\\BeerService.cs",
               "RelativeToolTip": "Backend\\Services\\BeerService.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAYwDMAAAAOAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAYwGAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T01:28:32.718Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Backend\\Services\\IBeerServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T06:00:38.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T06:00:38.314Z"
             },
             {
               "$type": "Document",
@@ -66,7 +65,7 @@
               "RelativeDocumentMoniker": "Backend\\Controllers\\BeerController.cs",
               "ToolTip": "C:\\Users\\Luis\\source\\repos\\Backend\\Backend\\Controllers\\BeerController.cs",
               "RelativeToolTip": "Backend\\Controllers\\BeerController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDYAAAA6AAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAIwFAAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T00:53:10.371Z",
               "EditorCaption": ""
@@ -81,8 +80,7 @@
               "RelativeToolTip": "Backend\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:51:26.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T00:51:26.897Z"
             },
             {
               "$type": "Document",
