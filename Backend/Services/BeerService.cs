@@ -1,15 +1,17 @@
 ﻿using Backend.DTOs;
 using Backend.Migrations;
 using Backend.Models;
+using Backend.Respository;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Services
 {
-    public class BeerService : IBeerServices
+    public class BeerService : ICommonServices<BeerDto, BeerInsertDto, BeerUpdateDto>
     {
 
-        private StoreContext _context;
+        private StoreContext _context
+        private IRepository<Beer> _repository;
 
         public BeerService(StoreContext context) 
         { 

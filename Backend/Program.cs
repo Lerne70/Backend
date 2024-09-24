@@ -1,9 +1,11 @@
 using Backend.DTOs;
 using Backend.Models;
+using Backend.Respository;
 using Backend.Services;
 using Backend.Validators;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,13 +17,16 @@ builder.Services.AddKeyedSingleton<IRandomService, RandomService>("randomSinglet
 builder.Services.AddKeyedScoped<IRandomService, RandomService>("randomScoped");
 builder.Services.AddKeyedTransient<IRandomService, RandomService>("randomTransient");
 builder.Services.AddScoped<IPostsService, PostsService>();
-builder.Services.AddScoped<IBeerServices, BeerService>();
+builder.Services.AddKeyedScoped<ICommonServices<BeerDto, BeerInsertDto, BeerUpdateDto>, BeerService>("beerService");
 
 //HttpClient servicio jsonplaceholder
 builder.Services.AddHttpClient<IPostsService, PostsService>(c =>
 {
     c.BaseAddress = new Uri(builder.Configuration["BaseUrlPosts"]);
 });
+
+// Repository
+builder.Services.AddScoped<IRepository<Beer>, BeerRespository>();
 
 //Entity framework
 builder.Services.AddDbContext<StoreContext>(options =>
